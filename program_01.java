@@ -1,14 +1,14 @@
 import java.util.*;
 class abc{
-//      int facto(int a,int res)
-//      {
-//          if(a==1)
-//          {
-//              return res;
-//          }
+     int facto(int a,int res)
+     {
+         if(a==1)
+         {
+             return res;
+         }
          
-//          return facto(a-1,res*a);
-//      }
+         return facto(a-1,res*a);
+     }
     int facto(int a)
     { int p=1;
        for(int i=1;i<=a;i++)
